@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Social from '../components/Social'
 import ReactTypingEffect from 'react-typing-effect'
-// import profilepic from '../img/profile.jpg';
 
 class Home extends Component {
     render() {
@@ -15,4 +14,4 @@ class Home extends Component {
     }
 }
 
-export default Home
+export default Home;

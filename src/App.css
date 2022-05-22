@@ -79,3 +79,19 @@ nav ul li a {
   font-size: var(--typing-font);
   margin-bottom: 30px;
 }
+
+.about {
+  text-align: center;
+}
+
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+
+h1,h2,h3,h4 {
+  margin: 10px;
+}
+
+p {
+  font-size: var(--fontsize-p);
+}
