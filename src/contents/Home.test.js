@@ -1,4 +1,5 @@
-import { render, fireEvent } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { act } from "react-dom/test-utils";
 import Input from './Home';
 
@@ -10,14 +11,13 @@ describe("Input Component", () => {
     });
 
     it("change on input causes change on header", async () => {
+        const {getByTestId} = render(<Input />);
+        const input = getByTestId("searchBar");
+        const header = getByTestId("displaySearch");
+        const inputWord = "Wove";
         await act(async () => {
-            const {getByTestId} = render(<Input />);
-            const input = getByTestId("searchBar");
-            // const header = getByTestId("displaySearch");
-            // const inputWord = "Wove";
-            await fireEvent.change(input, { target: { value: inputWord } });
-            expect(input).toBeTruthy();
-            // expect(header.innerHTML).toBe(inputWord);
+            await userEvent.type(input, inputWord);
         });
+        expect(header.innerHTML).toBe(inputWord);
     });
 })
