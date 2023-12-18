@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WilawanLelapratak/my-portfolio/static/css/main.6860fd71.css",
+    "main.js": "/WilawanLelapratak/my-portfolio/static/js/main.fb7ab9b1.js",
+    "static/js/787.128fc6e9.chunk.js": "/WilawanLelapratak/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "index.html": "/WilawanLelapratak/my-portfolio/index.html",
+    "main.6860fd71.css.map": "/WilawanLelapratak/my-portfolio/static/css/main.6860fd71.css.map",
+    "main.fb7ab9b1.js.map": "/WilawanLelapratak/my-portfolio/static/js/main.fb7ab9b1.js.map",
+    "787.128fc6e9.chunk.js.map": "/WilawanLelapratak/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6860fd71.css",
+    "static/js/main.fb7ab9b1.js"
+  ]
+}
